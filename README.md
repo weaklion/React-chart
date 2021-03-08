@@ -9,9 +9,9 @@
 3. React-chartjs-2
 ## 구현된 컴포넌트
 
-React-table을 이용하여 환자들의 상태를 체크하는 Table 컴포넌트 완성.\ 
-React-chartjs-2 에 내장되어있는 도넛 컴포넌트를 이용.\ 
-성별, 인종별, 민족별 chart 총 세가지의 pie Chart 완성.
+React-table을 이용하여 환자들의 상태를 체크하는 Table 컴포넌트 완성.  
+React-chartjs-2 에 내장되어있는 도넛 컴포넌트를 이용.  
+성별, 인종별, 민족별 chart 총 세가지의 pie Chart 완성.  
 
 
 
