@@ -17,7 +17,7 @@ React-chartjs-2 에 내장되어있는 도넛 컴포넌트를 이용.
 
 ### 실행 방법
 
-    1. glt clone후 cohortData에 해당하는 더미 데이터를 src내의 cohortData 폴더에 넣기
+    1. glt clone후 cohortData에 해당하는 더미 데이터를 src내의 cohortData 폴더 생성후에 에 넣기
     2. yarn or npm install
     3. yarn start 
     4. 결과확인
