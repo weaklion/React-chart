@@ -2,6 +2,7 @@ import { useMemo,Fragment } from "react";
 import { useTable, usePagination, useSortBy, useFilters, useExpanded } from "react-table";
 import { DefaultColumnFilter } from "../utils/filter";
 
+
 const CohortTable = ({ columns : userColumns, data, renderRowSubComponent }) => {
 
   const defaultColumn = useMemo( () => ({
@@ -46,7 +47,6 @@ const CohortTable = ({ columns : userColumns, data, renderRowSubComponent }) => 
               {headerGroup.headers.map(column => (
                 <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                   {column.render('Header')}
-                  <div>{column.canFilter ? column.render('Filter') : null}</div>
                   <span>
                     {column.isSorted
                     ? column.isSortedDesc
@@ -55,6 +55,7 @@ const CohortTable = ({ columns : userColumns, data, renderRowSubComponent }) => 
                     : ''
                     }
                   </span>
+                  <div>{column.canFilter ? column.render('Filter') : null}</div>
                   </th>
               ))}
             </tr>
@@ -79,7 +80,8 @@ const CohortTable = ({ columns : userColumns, data, renderRowSubComponent }) => 
                 {row.isExpanded ? (
                   <tr>
                     <td colSpan={visibleColumns.length}>
-                      {renderRowSubComponent({row})}
+                    
+                      {renderRowSubComponent(row.original)}
                     </td>
                   </tr>
                 ) : null}
