@@ -1,6 +1,7 @@
 # React-table, chart.js를 이용한 테이블 및 차트
 
-https://user-images.githubusercontent.com/19775066/110323791-70084680-8058-11eb-8dcb-f5a18fe3d75e.png
+![제목 없음](https://user-images.githubusercontent.com/19775066/110325919-4dc3f800-805b-11eb-951b-0bf351950af0.png)
+
 #### 사용한 라이브러리 
 
 1. React.js
